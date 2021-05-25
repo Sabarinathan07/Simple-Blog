@@ -2,7 +2,7 @@
 <h1 align="center">
 <a href="https://github.com/Sabarinathan07/Simple-Blog">Simple Blog
 </a><br/><br/>
-<img src="https://github.com/Sabarinathan07/Simple-Blog/blob/master/screenshots/blog.jpeg?raw=true">
+<img src="https://github.com/Sabarinathan07/Simple-Blog/blob/master/screenshots/Blog-img.jpeg?raw=true">
 </br>
 </h1>
 <h4 align="center">My first Application using nodeJS, Express and MongoDB</h4>
