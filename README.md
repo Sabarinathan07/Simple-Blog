@@ -18,7 +18,7 @@
 </h1></a>
 
 
-## Homepage
+### Homepage
 
 <h1 align="center">
 <img src="https://github.com/Sabarinathan07/Simple-Blog/blob/master/screenshots/homepage.png?raw=true" width="500px"/>
@@ -26,11 +26,11 @@
 
 >This app uses MongoDB as the database 
 
-## Development
+### Development
 
 ### Run app
 
-1. git clone ```https://github.com/Sabarinathan07/Simple-Blog.git```
+1. ```git clone``` ```https://github.com/Sabarinathan07/Simple-Blog.git```
 2. ```cd Simple-Blog```
 3. ```npm install && npm start  ```
 
