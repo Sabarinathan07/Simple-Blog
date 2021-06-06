@@ -109,3 +109,20 @@
         font-size: 1.2em;
         cursor: pointer;
       }
+
+      @media screen and (max-width: 500px){
+        nav{
+          max-width: 350px;
+          display:block;
+        }
+
+        nav p{
+          display:none;
+        }
+        nav h1{
+          font-size: 3em;
+          margin:10px;
+        }
+        
+      
+      }

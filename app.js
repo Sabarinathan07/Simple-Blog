@@ -5,7 +5,7 @@ const blogRoutes = require('./routes/blogRoutes');
 
 // express app
 const app = express();
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 3000 ;
 
 //connect to mongoDB
 const dbURI = 'mongodb+srv://sabari-db:sabarinathan@cluster0.jgirb.mongodb.net/narikootam?retryWrites=true&w=majority';
