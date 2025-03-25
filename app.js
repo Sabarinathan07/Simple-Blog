@@ -8,8 +8,9 @@ const app = express();
 const PORT = process.env.PORT || 3000 ;
 
 //connect to mongoDB
-const dbURI = 'mongodb+srv://sabari-db:sabarinathan@cluster0.jgirb.mongodb.net/narikootam?retryWrites=true&w=majority';
-mongoose.connect(dbURI, { useNewUrlParser: true, useUnifiedTopology: true })
+// const dbURI = 'mongodb+srv://sabari-db:sabarinathan@cluster0.jgirb.mongodb.net/narikootam?retryWrites=true&w=majority';
+const dbURI = 'mongodb://localhost:27017/narikootam';
+mongoose.connect(dbURI)
     .then((result) => app.listen(PORT))
     .then(() => console.log("Server listening on Port",PORT))
     .catch((err) => console.log(err)); 
